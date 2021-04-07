@@ -1,0 +1,31 @@
+:root{
+    --primary: white;
+}
+.table--header{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1.1rem;
+    text-align: center;
+}
+.countries--background{
+    background-color:  rgba(33,47,69,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+}
+.countries--table{
+    margin-top: 1rem;
+    background-color:  #144552;
+    width: 70%;
+}
+.table--row{
+    color:white;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.table--row:hover{
+    color:#78a2ad;
+    font-size: 1rem;
+    background-color: #0f353f;
+}

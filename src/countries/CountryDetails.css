@@ -1,0 +1,46 @@
+.modal--theme{
+    z-index: 300;
+}
+.modal-content {
+    background:  rgba(33,47,69,0.6); 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.modal--header{
+    color: white;
+    text-align: center;
+    margin:auto;
+    border-bottom:none;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.margin--top{
+    margin-top:1rem;
+}
+.modal--footer{
+    border-top: none;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+}
+.modal--div{
+    padding: 2rem;
+    border-radius: 10%;
+    background-color: #78a2ad;
+    color:#0f353fc5;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.modal--div > h5{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0f353f ;
+}
+
+@media screen and (max-width: 760px){
+    .modal--theme{
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
